@@ -1,0 +1,9 @@
+[Unit]
+Description=daemon for the alarm cli.
+
+[Service]
+Type=simple
+ExecStart=/bin/bash alarm daemon
+
+[Install]
+WantedBy=multi-user.target
